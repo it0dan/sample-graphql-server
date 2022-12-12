@@ -25,11 +25,11 @@ For this example let's imagine a simple social media, where users can make posts
 
 ## How to run it?
 
-###### 1 - Download
+###### 1 - Download it
 Download repository 
 
 ###### 2 - Set MongoDB variables
-At **index.js** file, update information with your MongoDB's USER, PASSWORD, CLUSTER and DATABASE.
+At [index.js](https://github.com/it0dan/graphql/blob/main/src/index.js) file, update information with your MongoDB's USER, PASSWORD, CLUSTER and DATABASE.
 ```
   mongoose.connect('mongodb+srv:/USER:PASSWORD@CLUSTER.mongodb.net/DATABASE');
   mongoose.set('debug', true);
@@ -44,4 +44,32 @@ $ npm install
 ```bash
 $ yarn dev
 ```
+
+
+If everything works as expected, now you can play with your graphQL server.
+
+## Playing
+In your Postman, send a request like this cURL below:
+```
+curl --location --request POST 'http://localhost:6666/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query":"{\r\n  __schema {\r\n    types {\r\n      name\r\n      description\r\n    }\r\n  }\r\n}","variables":{}}'
+```
+
+Your response should be something like this:
+```
+{
+    "data": {
+        "__schema": {
+            "types": [
+                {
+                    "name": "Comment",
+                    "description": null
+                },
+                {
+                    "name": "ID",
+                    "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID."
+                }........
+```
+
 
