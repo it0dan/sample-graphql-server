@@ -56,7 +56,7 @@ curl --location --request POST 'http://localhost:6666/graphql' \
 --data-raw '{"query":"{\r\n  __schema {\r\n    types {\r\n      name\r\n      description\r\n    }\r\n  }\r\n}","variables":{}}'
 ```
 
-Your response should be something like this:
+Your 200 OK response should be something like this:
 ```
 {
     "data": {
@@ -72,4 +72,28 @@ Your response should be something like this:
                 }........
 ```
 
+###### Mutation example
+```
+mutation {
+    createUser (data: {
+        firstName: "Jane"
+        lastName: "Doe"
+        email: "janedoe@notexist.com"
+        active: true
+    }) {
+        _id
+        fullName
+    }
+}
+```
+
+###### Query example
+```
+query {
+    users {
+        fullName
+        active
+    }
+}
+```
 
