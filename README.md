@@ -25,22 +25,22 @@ For this example let's imagine a simple social media, where users can make posts
 
 ## How to run it?
 
-###### First - Download
+###### 1 - Download
 Download repository 
 
-###### Second - Set MongoDB variables
-In index.js file, at line 10, update information with your MongoDB USER, PASSWORD, CLUSTER and DATABASE.
+###### 2 - Set MongoDB variables
+At **index.js** file, update information with your MongoDB's USER, PASSWORD, CLUSTER and DATABASE.
 ```
   mongoose.connect('mongodb+srv:/USER:PASSWORD@CLUSTER.mongodb.net/DATABASE');
   mongoose.set('debug', true);
 ```
 
-###### Thrid - Install dependencies
+###### 3 - Install dependencies
 ```bash
 $ npm install
 ```
 
-###### Fourth - Run it
+###### 4 - Run it
 ```bash
 $ yarn dev
 ```
