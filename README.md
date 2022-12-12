@@ -14,5 +14,5 @@ This code represents a sample of how graphQL engine works and how powerful might
 For this example let's imagine a simple social media, where users can make posts and comments. Check the image bellow:
 
 <p align="center">
-  <a href="https://ibb.co/sWMHVTz" target="blank"><img src="https://i.ibb.co/y4bSQz7/flow.png" width="200" alt="GraphQL Logo" /></a>
+  <a href="https://ibb.co/sWMHVTz" target="blank"><img src="https://i.ibb.co/y4bSQz7/flow.png" width="500" alt="GraphQL Logo" /></a>
 </p>
