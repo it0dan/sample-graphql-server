@@ -22,3 +22,26 @@ For this example let's imagine a simple social media, where users can make posts
   - [VSCode](https://code.visualstudio.com/) - IDE
   - [MongoDB Cloud](https://cloud.mongodb.com/) - DB
   - [Postman](https://www.postman.com/) - API Testing (optional)
+
+## How to run it?
+
+###### First - Download
+Download repository 
+
+###### Second - Set MongoDB variables
+In index.js file, at line 10, update information with your MongoDB USER, PASSWORD, CLUSTER and DATABASE.
+```
+  mongoose.connect('mongodb+srv:/USER:PASSWORD@CLUSTER.mongodb.net/DATABASE');
+  mongoose.set('debug', true);
+```
+
+###### Thrid - Install dependencies
+```bash
+$ npm install
+```
+
+###### Fourth - Run it
+```bash
+$ yarn dev
+```
+

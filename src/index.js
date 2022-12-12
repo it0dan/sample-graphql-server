@@ -7,7 +7,7 @@ import resolvers from './graphql/resolvers';
 import mongoose from 'mongoose';
 
 (async () => {
-  mongoose.connect('mongodb+srv://USER:PASSWORD@cluster0.8unkwxh.mongodb.net/graphy');
+  mongoose.connect('mongodb+srv://USER:PASSWORD@CLUSTER.mongodb.net/DATABASE');
   mongoose.set('debug', true);
 
   const PORT = 6666;
