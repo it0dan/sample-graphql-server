@@ -9,9 +9,9 @@
 GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.
 
 ## This code
-This code represents a sample of how graphQL engine works and how powerful might be.
+This code represents a sample of how graphQL engine works and how powerful it might be.
 
-For this example let's imagine a simple social media, where users can make posts and comments. Check the image bellow:
+For this example let's imagine a simple social media, where users can make posts and comments. Check the image below:
 
 <p align="center">
   <a href="https://ibb.co/6rvJdGc" target="blank"><img src="https://i.ibb.co/Bc4K1vH/Untitled.jpg" width="600" alt="Use Case" /></a>
