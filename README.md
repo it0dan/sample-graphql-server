@@ -11,7 +11,7 @@ GraphQL is a query language for APIs and a runtime for fulfilling those queries 
 ## 🧱 This code
 This code represents a sample of how graphQL engine works and how powerful might be.
 
-For this example let's imagine a simple social media, where users can make posts and comments. Check the image bellow:
+For this example let's imagine a simple social media, where users can make posts and comments. Check the image below:
 
 <p align="center">
   <a href="https://ibb.co/6rvJdGc" target="blank"><img src="https://i.ibb.co/Bc4K1vH/Untitled.jpg" width="600" alt="Use Case" /></a>
@@ -105,4 +105,4 @@ query {
 ## 🐛 Problem?
 If you find some trouble to have some fun with this code feel confortable to open a new `ISSUE`.
 
-But if you find some trouble and know how to solve, please open a `PULL REQUEST`.
+But if you find it and know how to solve it, please open a `PULL REQUEST`.
