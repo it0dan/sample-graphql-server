@@ -17,7 +17,7 @@ For this example let's imagine a simple social media, where users can make posts
   <a href="https://ibb.co/6rvJdGc" target="blank"><img src="https://i.ibb.co/Bc4K1vH/Untitled.jpg" width="600" alt="Use Case" /></a>
 </p>
 
-## 💻 What do you need to use it?
+## 💻 What do you need to make it work?
 
   - [VSCode](https://code.visualstudio.com/) - IDE
   - [MongoDB Cloud](https://cloud.mongodb.com/) - DB
