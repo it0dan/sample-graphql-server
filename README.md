@@ -103,6 +103,6 @@ query {
 ```
 
 ## 🐛 Problem?
-If you find some trouble to have some fun with this code feel confortable to open a new `ISSUE`.
+If you find trouble to have some fun with this code feel confortable to open a new `ISSUE`.
 
-But if you find it and know how to solve it, please open a `PULL REQUEST`.
+But if you find it and know how to solve, please open a `PULL REQUEST`.
