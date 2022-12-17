@@ -8,7 +8,7 @@
 # What is graphQL?
 GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.
 
-## This code
+## 🧱 This code
 This code represents a sample of how graphQL engine works and how powerful might be.
 
 For this example let's imagine a simple social media, where users can make posts and comments. Check the image bellow:
@@ -17,15 +17,15 @@ For this example let's imagine a simple social media, where users can make posts
   <a href="https://ibb.co/6rvJdGc" target="blank"><img src="https://i.ibb.co/Bc4K1vH/Untitled.jpg" width="600" alt="Use Case" /></a>
 </p>
 
-## What do you need to use it?
+## 💻 What do you need to use it?
 
   - [VSCode](https://code.visualstudio.com/) - IDE
   - [MongoDB Cloud](https://cloud.mongodb.com/) - DB
   - [Postman](https://www.postman.com/) - API Testing (optional)
 
-## How to run it?
+## 🚀 How to run
 
-###### 1 - Download it
+###### 1 - Download
 Download repository 
 
 ###### 2 - Set MongoDB variables
@@ -40,7 +40,7 @@ At [index.js](https://github.com/it0dan/graphql/blob/main/src/index.js) file, up
 $ npm install
 ```
 
-###### 4 - Run it
+###### 4 - Run
 ```bash
 $ yarn dev
 ```
@@ -48,7 +48,7 @@ $ yarn dev
 
 If everything works as expected, now you can play with your graphQL server.
 
-## Playing
+## 🎮 Playing
 In your Postman, send a request like this cURL below:
 ```bash
 curl --location --request POST 'http://localhost:6666/graphql' \
@@ -102,7 +102,7 @@ query {
 }
 ```
 
-## Problem?
+## 🐛 Problem?
 If you find some trouble to have some fun with this code feel confortable to open a new `ISSUE`.
 
 But if you find some trouble and know how to solve, please open a `PULL REQUEST`.
